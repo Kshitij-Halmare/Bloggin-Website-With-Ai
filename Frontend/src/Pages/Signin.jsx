@@ -126,8 +126,8 @@ function Signin() {
           <p className="text-amber-100">
             Do not have an account?{" "}
             <span
-              onClick={() => navigate("/signin")}
-              className="text-amber-400 hover:text-amber-300 font-medium cursor-pointer transition-colors duration-300"
+              onClick={() => navigate("/signup")}
+              className="text-amber-400 hover:text-amber-300 font-medium cursor-pointer transition-all duration-300"
             >
               Sign up
             </span>
